@@ -36,17 +36,21 @@
 
 # DICTIONARY ---->
 
-student = {
-    "Name" : "Ram",
-    "Age" : 20,
-    "Course" : "CSE",
-}
+# student = {
+#     "Name" : "Ram",
+#     "Age" : 20,
+#     "Course" : "CSE",
+# }
  
-print(student)
-print(student["Name"])
+# print(student)
+# print(student["Name"])
 
-student["Grade"] = "A"
-print(student)
+# student["Grade"] = "A"
+# print(student)
+
+
+
+
 
 
 # QUESTION --1
