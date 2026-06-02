@@ -23,3 +23,28 @@
 # numbers = [n1 , n2 , n3 , n4 , n5]
 # unique_numbers = set(numbers)
 # print(unique_numbers)
+
+# QUESTION --4
+
+# marks = {
+#     "Math" : 80 ,
+#     "Science" : 75 ,
+#     "English" : 90
+# }
+# print(marks.keys())
+# print(marks.values())
+# print(marks)
+# average = sum(marks.values())/len(marks)
+# print("Average is " , average)
+
+# QUESTION --5
+
+age = int(input("Enter your age : "))
+if 0 < age < 13 :
+    print("Child")
+if 13 < age < 19 :
+    print("Teenager")
+if age > 19 :
+    print("Adult")
+if age < 0 :
+    print("Invalid Input")
