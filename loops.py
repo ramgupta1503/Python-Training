@@ -69,6 +69,21 @@
 
 
 
-word = "HELLO"
-for letter in word[:: -1]:
-    print(letter , end = " ")
+# word = "HELLO"
+# for letter in word[:: -1]:
+#     print(letter , end = " ")
+
+
+
+
+# WHILE LOOP SYNTAX
+
+# while condition:
+#     code block
+    
+
+count = 1
+    
+while count <= 5 :
+    print(count)
+    count += 1 
