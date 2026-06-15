@@ -39,12 +39,35 @@
 
 # QUESTION --5
 
-age = int(input("Enter your age : "))
-if 0 < age < 13 :
-    print("Child")
-if 13 < age < 19 :
-    print("Teenager")
-if age > 19 :
-    print("Adult")
-if age < 0 :
-    print("Invalid Input")
+# age = int(input("Enter your age : "))
+# if 0 < age < 13 :
+#     print("Child")
+# if 13 < age < 19 :
+#     print("Teenager")
+# if age > 19 :
+#     print("Adult")
+# if age < 0 :
+#     print("Invalid Input")
+
+
+# QUESTION --6
+
+# name = input("Enter your name : ")
+
+# print(f"Good Afternoon {name} ")
+# print("Good Afternoon ", name)
+
+
+# QUESTION --7
+
+# name = "Ram is a good  boy"
+# print(name.find("Ram"))
+
+
+# QUESTION --8
+
+# letter = '''Dear <|name|>
+# You are selected!
+# <|Date|>'''
+
+# print(letter.replace("<|name|>" , "Ram").replace("<|Date|>" , "15 June 2026"))
