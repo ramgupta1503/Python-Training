@@ -15,36 +15,22 @@
 # fruits.remove("apple") # .remove is used to remove any data type from the list
 # print(fruits)
 
+# print(fruits[0])
 
-# TUPLE ----> (Always stored in a small bracket)
+# fruits[0] = "Grapes"
+# print(fruits[0])
 
-# coordinates = (99.25 , 45.47)
-# print(coordinates)
+# UNLIKE AS STRING, LISTS ARE MUTABLE
 
+# print(fruits[1:3])
+# print(fruits[0:4:2])
 
-# SETS ----> (Always stored in a curved brackets, Alwaya contains unique items)
+l1 = [1, 1123, 313, 2, 114, 131]
+# l1.sort()
+# l1.reverse()
 
-# students = {"Ram " , "Rudra" , "Arnav" , "Yuvraj"}
-# print(students)
-
-# students.add("Shubh")
-# print(students)
-
-# in sets we use .add instead of .append because
-# in sets order is not defined and .append add items at the end
-
-
-# DICTIONARY ---->
-
-# student = {
-#     "Name" : "Ram",   (key-value)
-#     "Age" : 20,
-#     "Course" : "CSE",
-# }
- 
-# print(student)
-# print(student["Name"])
-
-# student["Grade"] = "A"
-# print(student)
-
+# l1.insert(2 , 748)
+# l1.pop(2)
+# print(l1)
+l1.remove(313)
+print(l1)
