@@ -16,4 +16,4 @@ for i in range (1,10):
         print("You lost !!")
         print("The number is " , i)
 
-
+print("THANK YOU !!")
