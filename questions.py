@@ -71,3 +71,7 @@
 # <|Date|>'''
 
 # print(letter.replace("<|name|>" , "Ram").replace("<|Date|>" , "15 June 2026"))
+
+
+# QUESTION --9
+

@@ -44,3 +44,5 @@
 name = "Ram is a good   boy"
 
 print(name.find("  "))
+
+# STRINGS ARE IMMUTABBLE AND CANNOT BE CHANGED ONLY REPLACED TO NEW STRING

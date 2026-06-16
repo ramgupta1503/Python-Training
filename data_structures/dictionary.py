@@ -27,5 +27,8 @@ marks = {
 # print(marks.values())
 # marks.update({"Ram": 99 , "Rishabh": 97})
 # print(marks)
-print(marks.get("Ram2"))
-print(marks["Ram2"])
+
+# print(marks.get("Ram2")) # prints none
+# print(marks["Ram2"])  # returns error
+
+print(len(marks))
