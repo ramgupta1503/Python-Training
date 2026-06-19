@@ -89,14 +89,30 @@
 
 
 
-def avg():
-    a = int(input("Enter the marks: "))
-    b = int(input("Enter the marks: "))
-    c = int(input("Enter the marks: "))
+# def avg():
+#     a = int(input("Enter the marks: "))
+#     b = int(input("Enter the marks: "))
+#     c = int(input("Enter the marks: "))
 
-    avg = (a+b+c)/3
+#     avg = (a+b+c)/3
  
-    return avg
+#     return avg
  
-average = avg()
-print("Average is " , average)
+# average = avg()
+# print("Average is " , average)
+
+
+
+
+
+def rem (l , word):
+    n = []
+    for item in l:
+        if not(item == word):
+            n.append(item.strip(word))
+    return n
+
+
+l = ["Harry" ,  "Rohan" , "Shubham" , "an"]
+
+print(rem(l, "an"))
