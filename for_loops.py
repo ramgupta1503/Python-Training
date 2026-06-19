@@ -75,3 +75,24 @@
 
 
 
+# for i in range (start , stop , stepsize):
+    #code
+
+
+
+# l = [12,3,4,533,1231,342,121,]
+
+# for i in l:
+#     print(i)
+
+
+
+n = int(input("Enter the number: "))
+
+for i in range (1,n+1):
+    if(i == 1 or i == n):
+        print("*"*n)
+    else:
+        print("*" , end="")
+        print(" "*(n-2) , end = "")
+        print("*")
