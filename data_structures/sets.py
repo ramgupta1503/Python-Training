@@ -22,3 +22,4 @@ s2 = {345,3,5,31,1}
 
 print(s1.union(s2))
 print(s1.intersection(s2))
+
