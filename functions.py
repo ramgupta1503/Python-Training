@@ -50,9 +50,53 @@
 
 # SQUARE OF A NUMBER
 
-x = int(input("Enter the number : "))
-def square(num) :
-    return num*num
+# x = int(input("Enter the number : "))
+# def square(num) :
+#     return num*num
 
-result = square(x)
-print(result)
+# result = square(x)
+# print(result)
+
+
+
+
+
+
+# def goodDay(naam, antt):
+    # print("Good day," , naam)
+    # print(antt)
+# 
+# name = input("Enter your name: ")
+# ending = input("Write your ending: ")
+# 
+# 
+# 
+# goodDay(name, ending)'
+
+
+
+
+
+# def goodDay(name, ending):
+#     print("Good Day, " , name)
+#     print(ending)
+#     return 
+
+# a = goodDay("Ram" , "Thank You !!")
+# print(a)
+
+
+
+
+
+def avg():
+    a = int(input("Enter the marks: "))
+    b = int(input("Enter the marks: "))
+    c = int(input("Enter the marks: "))
+
+    avg = (a+b+c)/3
+ 
+    return avg
+ 
+average = avg()
+print("Average is " , average)
