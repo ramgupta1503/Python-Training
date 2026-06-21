@@ -36,11 +36,11 @@
 # SUM OF N NATURAL NUMBER
 
 
-n = int(input("Enter the number: "))
-sum = 0
-i = 0 
-while (i<(n+1)):
-    sum += i
-    i += 1
+# n = int(input("Enter the number: "))
+# sum = 0
+# i = 0 
+# while (i<(n+1)):
+#     sum += i
+#     i += 1
 
-print(sum)
+# print(sum)

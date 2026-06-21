@@ -19,15 +19,18 @@
 
 
 
-for i in range(845):
-    pass
+# for i in range(845):
+#     pass
 
-i = 0 
-while (i<45):
-    print(i)
-    i = i+1
+# i = 0 
+# while (i<45):
+#     print(i)
+#     i = i+1
 
  
 
-for i in range (0,465):
-    print()
+# for i in range (0,465):
+#     print()
+
+
+
