@@ -1,3 +1,7 @@
+# variables are created on the computer memory and that variable can store value.
+# Variable is just a container for the value.
+
+
 # age = 16     #int
 # number = 829.1312     #float
 # name = "Ram"     #text
