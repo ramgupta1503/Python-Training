@@ -1,18 +1,58 @@
-# print("Hello World")
+# # Askin name of user
+# name = input("Enter your name: ")
+
+# # Say hello to the user
+# print("hello,", end = "????????" )
+# print(name)
+
+
+# # print("hello," , name , sep= "      ")
+
+# print ("hello, , \"friend\"")
 
 
 
-# print("My name is Ram Gupta")
-# print("My College name is Galgotia college of engineering and technology")
+
+
+# # Askin name of user
+# name = input("Enter your name: ")
+
+# # Remove white space from str
+# name = name.strip()
+
+# # Capitileze only the first letter in the string
+# name = name.capitalize()
+
+# # It capitalize first letter of all the words
+# name = name.title()
+
+# # Say hello to the user
+# print(f"hello, {name}")
+
+
+#        OR
+
+
+# # Askin name of user
+# name = input("Enter your name: ")
+
+# # Remove white space from str and capitalize the words
+# name = name.strip().title()
+
+# # Say hello to the user
+# print(f"hello, {name}")
 
 
 
-# if 5>2:
-#     print("Five is greater than 2")
+#        OR
 
 
 
-name = "Ram Gupta"
-fav_subject = "Maths"
-print(name)
-print(fav_subject)
+# Askin name of user
+name = input("Enter your name: ").strip().title()
+
+# Split user's name into first name and last name
+first, last = name.split (" ")
+
+# Say hello to the user
+print(f"hello, {first}")
