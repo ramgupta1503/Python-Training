@@ -1,4 +1,5 @@
 import random
+
 print("You have 10 attempts to find correct number")
 print("If you got the right answer you will get the icecream otherwise nothing")
 
@@ -17,3 +18,4 @@ for i in range (1,10):
         print("The number is " , i)
 
 print("THANK YOU !!")
+print("If you like this game play more !!")
