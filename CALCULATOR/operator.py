@@ -7,3 +7,9 @@ name = input("Enter you name: ")
 
 # right side value returns name which is assigned in the left side variable.
 # everytime the variable is called it will return the assigned value.
+
+# OPERATORS
+
+# + , - , * , / , %
+
+
